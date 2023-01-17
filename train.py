@@ -120,5 +120,6 @@ def main():
                 "optimizer": optimizer.state_dict(),
             }
             save_checkpoint(checkpoint, filename=f"b3_{epoch}.pth.tar")
+
 if __name__ == "__main__":
     main()
